@@ -1,6 +1,6 @@
 {
   "name": "s4ft-framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "**s4ft** (Simple And Fast Templates) is a declarative web development language and framework inspired by Next.js. It provides an intuitive syntax for building modern web applications with built-in routing, state management, and component architecture.",
   "main": "./dist/index.js",
@@ -42,7 +42,8 @@
     "ora": "latest",
     "path": "latest",
     "terser": "latest",
-    "utf-8-validate": "latest"
+    "utf-8-validate": "latest",
+    "ws": "^8.18.2"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",

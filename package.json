@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "description": "**s4ft** (Simple And Fast Templates) is a declarative web development language and framework inspired by Next.js. It provides an intuitive syntax for building modern web applications with built-in routing, state management, and component architecture.",
-  "main": "index.js",
-  "type": "module",
+  "main": "./dist/index.js",
   "bin": {
     "s4ft": "./dist/bin/s4ft.js"
   },
@@ -12,7 +11,8 @@
     "build": "tsc",
     "dev": "node dist/dev-server/dev-server.js",
     "start": "node dist/index.js",
-    "cli": "node dist/bin/s4ft.js"
+    "cli": "node dist/bin/s4ft.js",
+    "postinstall": "node ./bin/postinstall.js"
   },
   "directories": {
     "lib": "lib",
